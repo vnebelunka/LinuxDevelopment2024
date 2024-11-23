@@ -1,0 +1,14 @@
+--- save/mazegen_2.c	2024-11-23 16:50:16.015671373 +0300
++++ save/mazegen_3.c	2024-11-23 16:50:16.015671373 +0300
+@@ -66,8 +66,9 @@
+ }
+ 
+ int main(int argc, char **argv) {
+-  char pass = argv[1][0], wall = argv[1][1];
+-  N = atoi(argv[2]);
++  srand(atoi(argv[1])); // use current time as seed for random generator
++  char pass = argv[2][0], wall = argv[2][1];
++  N = atoi(argv[3]);
+   int sz = N * N;
+   visited = calloc(sz, sizeof(int));
+   edge_vec = calloc(4 * sz, sizeof(int));

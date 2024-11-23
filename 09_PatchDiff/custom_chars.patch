@@ -1,0 +1,13 @@
+69c69,70
+<   N = atoi(argv[1]);
+---
+>   char pass = argv[1][0], wall = argv[1][1];
+>   N = atoi(argv[2]);
+92c93
+<         printf(".");
+---
+>         printf("%c", pass);
+94c95
+<         printf("#");
+---
+>         printf("%c", wall);

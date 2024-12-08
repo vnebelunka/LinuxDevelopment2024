@@ -1,0 +1,70 @@
+# Russian translations for  08_I18n package
+# Английские переводы для пакета  08_I18n.
+# Copyright (C) 2024 THE  08_I18n'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the  08_I18n package.
+# nebil <nebil@nebil-x670aoruseliteax>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  08_I18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-08 16:54+0300\n"
+"PO-Revision-Date: 2024-11-23 12:09+0300\n"
+"Last-Translator: nebil <nebil@nebil-x670aoruseliteax>\n"
+"Language-Team: Russian <gnu@d07.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../src/binsearch.c:46 ../src/binsearch.c:60
+#, c-format
+msgid "number is greater than %d?\n"
+msgstr "число больше чем %d?\n"
+
+#: ../src/binsearch.c:48 ../src/binsearch.c:62
+#, c-format
+msgid "number is greater than %s?\n"
+msgstr "число больше чем %s?\n"
+
+#: ../src/binsearch.c:51 ../src/binsearch.c:65
+msgid "yes"
+msgstr "да"
+
+#: ../src/binsearch.c:53 ../src/binsearch.c:71
+msgid "no"
+msgstr "нет"
+
+#: ../src/binsearch.c:56 ../src/binsearch.c:78
+#, c-format
+msgid "unknown command. Valiable answers: yes/no.\n"
+msgstr "неизвестная команда. Возможные варианты ответа: да/нет.\n"
+
+#: ../src/binsearch.c:67 ../src/binsearch.c:73
+#, c-format
+msgid "answer is %d!\n"
+msgstr "ответ это %d!\n"
+
+#: ../src/binsearch.c:69 ../src/binsearch.c:75
+#, c-format
+msgid "answer is %s!\n"
+msgstr "ответ это %s!\n"
+
+#: ../main.c:58
+#, c-format
+msgid ""
+"Usage: binsearch [-r]\n"
+"Simple \"guess number\" game in interval [1, 100] with binary search.\n"
+"Possible answers: yes/no for each question.\n"
+"\n"
+"-h, --help                 Give this help list\n"
+"-r                         Use romanian numbers in game\n"
+msgstr ""
+"Использование: binsearch [-r]\n"
+"Простая игра \"угадай число\" на интервале [1, 100] с использованием бинарного поиска.\n"
+"Допустимые ответы: да/нет на каждый ответ.\n"
+"\n"
+"-h, --help                 Вывести эту подсказку об использовании\n"
+"-r                         Использовать в игре Римские цифры\n"

@@ -1,0 +1,1 @@
+echo $1 | LC_ALL=ru_RU.utf8 $2 $3

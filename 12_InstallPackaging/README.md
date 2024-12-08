@@ -8,6 +8,15 @@ cmake --build .
 cmake --install . --prefix /path/to/install
 ```
 
+# Удаление установленных файлов
+
+сам `cmake` не генерирует таргет для `uninstall`, однако в `build` создаётся файл `install_manifest.txt` со всеми установленными файлами.
+Поэтому в данном случае для удаление можно использовать команду
+
+```shell
+xargs rm < install_manifest.txt
+```
+
 # Тесты
 
 После сборки в дирректории `build` необходимо запустить
